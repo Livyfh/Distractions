@@ -1,0 +1,160 @@
+@media (min-width: 0px){
+	body{
+		background-color: #FBD7D7;
+		height: 500px;
+	}
+
+.container-fluid{
+	top: 0px;
+	height: 100px;
+	line-height: 25.5px;
+	background-color: #FBD7D7;
+	display: flex;
+	flex-wrap:flex;
+}
+
+.topbar_middle{
+	overflow: hidden;
+	height:70px;
+	display: flex;
+	flex-wrap:flex;
+	color: blue;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.topbar_icons{
+	background-color: #FBD7D7;
+	margin-right:  30px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	width: 60px;
+	height: 60px;
+	flex-wrap: wrap;
+	transition:background-color 1s ease-out;
+	border-radius: 100px;
+	background-position: middle;
+	display: inline;
+	float: center; 
+	position: relative;
+}
+
+.topbar_icons img{
+	max-width: 200px;
+}
+
+.topbar_icons:hover {
+	background-color: white;
+}
+
+.home_icon{
+	position: relative;
+	height: 30px;
+	width: 30px;
+	margin-right: auto;
+	margin-left: 15.5px;
+    margin-bottom: auto;
+    margin-top: 15;
+}
+
+.home_icon img {
+	position: relative;
+}
+
+.archives_icon{
+	height: 31.4px;
+	width: 30px;
+	margin-right: auto;
+	margin-left: 15.5px;
+    margin-bottom: auto;
+    margin-top: 15;
+}
+
+.archives_icon img {
+	position: relative;
+}
+
+.contact_icon{
+	height: 35px;
+	width: 35px;
+	margin-right: auto;
+	margin-left: 12.8px;
+    margin-bottom: auto;
+    margin-top: 13;
+}
+
+.contact_icon img {
+	position: relative;
+}
+
+
+
+.container{
+	height: 100px;
+}
+
+h1{
+	text-align: center;
+}
+
+.wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 55px;
+}
+
+.biweekly_archives{
+	background-color: grey;
+	margin-right:  30px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	width: 200px;
+	height: 200px;
+	flex-wrap: wrap;
+	transition:background-color 1s ease-out;
+	background-position: middle;
+	display: inline;
+	float: center; 
+	position: relative;
+}
+
+
+.biweekly_archives:hover {
+    opacity: 1;
+	background-color: pink;
+}
+
+.archive-links:hover{
+	text-decoration: none;
+}
+
+.biweekly_archives:first-child{
+	background-color: white;
+	background-image: url("./pics_1/Screen Shot 2016-03-18 at 1.42.11 PM.png");
+	transition:background-image 1s ease-in-out;
+}
+
+.biweekly_archives:first-child:hover{
+	background-color: pink;
+	opacity: 1;
+}
+
+h2{
+	color: black;
+	text-align: center;
+	font-size: 100px;
+	transition:color 1s ease-out;
+}
+
+h2:hover{
+	color: white;
+}
+
+.biweekly_archives:first-child:hover{
+	background-color: white;
+}
